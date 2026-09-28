@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "Just Read It",
+	"description": "An extension that edits the CSS of reddit's page to remove all the extra (distracting) content around a post.",
+
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["activeTab", "contentSettings"],
+	"browser_action": {
+		"default_icon": "jri_icon.png",
+		"default_title": "Just Read It!"
+	}
+
+}
